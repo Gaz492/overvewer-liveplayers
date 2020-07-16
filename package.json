@@ -1,0 +1,20 @@
+{
+  "name": "mcsocket",
+  "version": "1.0.0",
+  "description": "A way to display current player locations in Minecraft on a rendered Overviewer map.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "rcon-client": "^4.2.0",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "typescript": "^3.7.5"
+  }
+}
